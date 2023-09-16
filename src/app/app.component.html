@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<div [innerHTML]="text"></div>
+<ul>
+  <li *ngFor="let val of contacts ;index as i";>{{i}}{{ val.firstName}}{{val.lastName}}</li>
+</ul>
